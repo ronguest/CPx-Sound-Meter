@@ -11,6 +11,8 @@ import math
 import neopixel
 import time
 
+# code to check memory usage example: https://learn.adafruit.com/adafruit-gemma-m0/handy-tips
+
 pixels = neopixel.NeoPixel(board.NEOPIXEL, 10, brightness=0.1, auto_write=False)
 pixels.fill((0, 0, 0))
 pixels.show()
